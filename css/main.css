@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 메인비쥬얼 영역 */
+#main_visual {position:relative; height:610px; overflow:hidden; min-width:1120px;}
+#main_visual .blue_bg {position:absolute; top:0; left:0; width:100%; height:610px; background-color:rgba(12,200,240,0.95);}
+#main_visual .bg_icon {position:absolute; top:50%; left:50%; width:206px; height:282px; background:url(../img/mv_bg.png) no-repeat; transform:translate(-50%,-50%)}
+
+/* 컨테이너 영역 */
+#container {font-size:14px;}
+#container .inner_wrap {width:1120px; margin:0 auto;}
+#container .title {background-image:url(../img/sp_ico.png); background-repeat: no-repeat; text-indent:-9999px;}
+#container .snow_inc {padding:80px 0 88px;}
+#container .snow_inc .title {width:221px; height:30px; background-position:0 -34px; margin-bottom:26px;}
+#container .snow_inc .text {color:#7d7d89; margin-bottom:17px; line-height:24px;}
+#container .snow_inc .service {color:#555450; text-decoration:underline;}
+#container .snow_inc .service a:hover {color:#18CBF1;}
+#container .snow_inc .icon {height:259px; background:url(../img/bg_main.png) no-repeat center 0;}
+
+#container .career {height:343px; background:url(../img/bg_career.jpg) no-repeat center 0; padding:60px 0 59px; box-sizing:border-box; background-size:cover;}
+#container .career .title {width:162px; height:30px; background-position:0 -114px; margin-bottom:26px;}
+#container .career .text {color:#f8ffff; margin-bottom:49px; line-height:22px;}
+#container .career .submit a {display:block; width:142px; height:52px; border:1px solid #f8ffff; color:#f8ffff; text-align:center; line-height:50px; box-sizing:border-box;}
+#container .career .submit a:hover {background-color:#18cbf1; border:1px solid #18cbf1;}
+
+#container .news {}
+#container .news .inner_wrap {padding:80px 0 81px;}
+#container .news .title {width:120px; height:30px; background-position:0 -154px; margin-bottom:25px;}
+#container .news .list {/*background:#9CC;*/}
+#container .news .list ul:after {content:''; display:block; clear:both;}
+#container .news .list ul .first {margin-right:68px; padding-right:69px; border-right:1px solid #e6e6e6;}
+#container .news .list ul li {display:block; width:491px; height:103px; float:left;}
+#container .news .list ul li p {font-size:16px; margin-bottom:16px;}
+#container .news .list ul li .news_title {color:#183533; width:491px; height:18px; overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
+#container .news .list ul li:hover .news_title {text-decoration:underline;}
+#container .news .list ul li .date {font-size:10px; color:#7c7b77;}
+#container .news .list ul li .text {font-size:14px; color:#52544f; margin-bottom:0;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

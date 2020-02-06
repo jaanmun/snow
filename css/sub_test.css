@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+.sub_visual {height:200px; background:url(../img/bg_top.jpg) no-repeat center 0; background-size:cover; padding-top:91px;}
+.inner_wrap {width:1120px; margin:0 auto;}
+.inner_wrap:after {content:''; display:block; clear:both;}
+.sub_title {background:url(../img/sp_sub_ico.png) no-repeat;}
+.service .sub_title {height:59px; background-position:0 -191px; text-indent:-9999px;}
+.service .sub_contents .inner_wrap {padding-top:60px;}
+
+.sub_contents .app:last-child {margin-bottom:112px;}
+.sub_contents .app:nth-child(even) {padding-left:15px;}
+.sub_contents .app:nth-child(even) .app_info {width:314px;}
+
+.app {width:560px; float:left; margin-bottom:123px;}
+.app:after {content:''; display:block; clear:both;}
+
+.app_icon {width:200px; height:200px; background-image:url(../img/sp_survices.png); float:left; margin-right:30px;}
+.app_info {width:329px; float:left; padding-top:12px;}
+.name {height:28px; background:url(../img/sp_survices.png) no-repeat -420px 0; text-indent:-9999px; margin-bottom:13px;}
+.app_txt {font-size:13px; color:#817f80; line-height:24px; margin-bottom:24px; letter-spacing:-0.5px;}
+
+.download a {display:inline-block; width:70px; height:70px; background-image:url(../img/sp_ico.png); text-indent:-9999px;}
+.ios {background-position:-20px -194px; margin-right:10px;}
+.android {background-position:-100px -194px;}
+
+.b612 .app_icon {background-position:-210px 0;}
+.b612 .name {background-position:-420px -40px;}
+
+.foodie .app_icon {background-position:0 -210px;}
+.foodie .name {background-position:-420px -80px;}
+
+.looks .app_icon {background-position:-210px -210px;}
+.looks .name {background-position:-420px -120px;}
+
+.line .app_icon {background-position:0 -420px;}
+.line .name {background-position:-420px -160px;}
+
+
+
+
+
+
+

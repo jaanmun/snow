@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+#wrap {min-width:1120px;}
+
+/* 헤더 영역 */
+#header {}
+#header .inner_wrap {width:1120px; height:91px; margin:0 auto; /*background:#9F6;*/ position:relative;}
+#header .inner_wrap .logo {padding-top:32px;}
+#header .inner_wrap .logo a {display:block; width:104px; height:24px; background:url(../img/sp_ico.png) no-repeat; text-indent:-9999px;}
+
+.gnb {position:absolute; top:36px; left:207px; /*background:#996;*/ font-size:15px; font-style:italic;}
+.gnb ul:after {content:''; display:block; clear:both;}
+.gnb ul li {float:left; margin-right:25px;}
+.gnb ul li:last-child {margin-right:0;}
+.gnb ul li a {color:#4f4a50;}
+.gnb ul li:hover a {color:#18cbf1;}
+
+.language {width:132px; /*height:40px;*/ border:1px solid #d2d2d2; border-radius:20px; position:absolute; top:26px; right:2px; line-height:40px; padding-left:25px; color:#9d9d9b; cursor:pointer; z-index:500; background:#fff;}
+.language:hover ul {display:block;}
+.language:hover span {background-position:0 -210px;}
+.language span {width:11px; height:5px; display:inline-block; background:url(../img/sp_ico.png) no-repeat 0 -194px; margin-left:32px;}
+.language ul {padding-bottom:10px; display:none;}
+.language ul li {line-height:24px;}
+.language ul li a {color:#9d9d9d;}
+.language ul li a:hover {color:#0cc8f0;}
+
+/*
+.language2 {width:132px; height:42px; border:1px solid #d2d2d2; border-radius:20px; position:absolute; top:86px; right:2px; line-height:40px; padding-left:25px; color:#9d9d9b; box-sizing:border-box;}
+.language2 span {width:11px; height:5px; display:inline-block; background:url(../img/sp_ico.png) no-repeat 0 -194px; margin-left:32px;}
+*/
+
+/* 푸터 영역 */
+#footer {border-top:1px solid #cbcbcb;}
+#footer:after {content:''; display:block; clear:both;}
+#footerIn {width:1120px; margin:0 auto; padding:30px 0 50px;}
+#footerIn .copy {float:left; font-size:14px; color:#4c505b; font-style:italic; margin-right:30px;}
+#footerIn .fmenu {float:left;}
+#footerIn .fmenu ul {}
+#footerIn .fmenu ul li {float:left; margin-right:11px; padding-right:11px; border-right:1px solid #cacaca; line-height:13px;}
+#footerIn .fmenu ul li:last-child {margin-right:0; padding-right:0; border-right:none;} 
+#footerIn .fmenu a {color:#626365;}
+
+
