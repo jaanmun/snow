@@ -3,7 +3,7 @@
 
 /* 메인비쥬얼 영역 */
 #main_visual {position:relative; height:610px; overflow:hidden; min-width:1120px;}
-#main_visual .blue_bg {position:absolute; top:0; left:0; width:100%; height:610px; background-color:rgba(12,200,240,0.95);}
+#main_visual .blue_bg {position:absolute; top:0; left:0; width:100%; height:610px; background-color:rgba(12,200,240,0.85);}
 #main_visual .bg_icon {position:absolute; top:50%; left:50%; width:206px; height:282px; background:url(../img/mv_bg.png) no-repeat; transform:translate(-50%,-50%)}
 
 /* 컨테이너 영역 */
@@ -20,8 +20,13 @@
 #container .career {height:343px; background:url(../img/bg_career.jpg) no-repeat center 0; padding:60px 0 59px; box-sizing:border-box; background-size:cover;}
 #container .career .title {width:162px; height:30px; background-position:0 -114px; margin-bottom:26px;}
 #container .career .text {color:#f8ffff; margin-bottom:49px; line-height:22px;}
-#container .career .submit a {display:block; width:142px; height:52px; border:1px solid #f8ffff; color:#f8ffff; text-align:center; line-height:50px; box-sizing:border-box;}
-#container .career .submit a:hover {background-color:#18cbf1; border:1px solid #18cbf1;}
+
+#container .career .submit {text-align:center; position:relative; width:142px; z-index:200;}
+#container .career .submit:after {content:''; width:0%; height:52px; background-color:#18cbf1; position:absolute; top:0%; left:50%; transition:all 300ms cubic-bezier(0.18, 0.89, 0.32, 1.28); z-index:-1;}
+#container .career .submit:hover:after {left:0%; width:100%;}
+#container .career .submit a {display:block; width:142px; height:52px; border:1px solid #f8ffff; color:#f8ffff; line-height:50px;}
+#container .career .submit:hover a {line-height:52px; color:#fff; transition:border 300ms ease; border:none;}
+
 
 #container .news {}
 #container .news .inner_wrap {padding:80px 0 81px;}
